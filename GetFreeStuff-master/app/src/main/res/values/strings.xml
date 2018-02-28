@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Map With Marker</string>
+    <string name="title_activity_maps">Map with Marker</string>
+    <string name="title_activity_map">Map</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="events_array">
+        <item>Food</item>
+        <item>Wine</item>
+        <item>Clothes</item>
+    </string-array>
+</resources>
