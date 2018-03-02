@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GetFreeStuff-master.iml" filepath="$PROJECT_DIR$/GetFreeStuff-master.iml" />
+      <module fileurl="file://C:\Users\lavanakul56268\Desktop\GetFreeStuff\GetFreeStuff-master\GetFreeStuff-master.iml" filepath="C:\Users\lavanakul56268\Desktop\GetFreeStuff\GetFreeStuff-master\GetFreeStuff-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\lavanakul56268\Desktop\GetFreeStuff\GetFreeStuff-master\app\app.iml" filepath="C:\Users\lavanakul56268\Desktop\GetFreeStuff\GetFreeStuff-master\app\app.iml" />
     </modules>
   </component>
 </project>
