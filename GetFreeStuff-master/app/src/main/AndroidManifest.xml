@@ -29,10 +29,6 @@
         <activity android:name=".AboutUs" />
         <activity android:name=".MapsMarkerActivity" />
         <activity android:name=".RegisterActivity" />
-        <activity
-            android:name=".Test"
-            android:label="@string/title_activity_map"
-            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

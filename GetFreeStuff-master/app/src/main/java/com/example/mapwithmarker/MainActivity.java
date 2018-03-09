@@ -3,8 +3,11 @@ package com.example.mapwithmarker;
         import android.content.Context;
         import android.content.Intent;
         import android.content.SharedPreferences;
+        import android.support.design.widget.NavigationView;
+        import android.support.v4.widget.DrawerLayout;
         import android.support.v7.app.AppCompatActivity;
         import android.os.Bundle;
+        import android.view.MenuItem;
         import android.view.View;
         import android.widget.Button;
         import android.widget.EditText;
@@ -16,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     public EditText username;
     public EditText password;
     public TextView checkWorking;
+    private DrawerLayout mDrawerLayout;
 
     public static String getMyPassword(Context context, String usernameEntered) {
         SharedPreferences prefs = context.getSharedPreferences("myAppPackage", 0);
@@ -59,11 +63,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         SignUp = (Button) findViewById(R.id.Sign);
         bLogin = (Button) findViewById(R.id.bLogin);
         username = (EditText) findViewById(R.id.getUsername);
         password = (EditText) findViewById(R.id.getPassword);
         checkWorking = (TextView) findViewById(R.id.CheckIfWorking);
+
+
 
     }
 
