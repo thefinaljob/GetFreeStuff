@@ -1,10 +1,14 @@
 package com.example.mapwithmarker;
 
+        import android.app.Fragment;
         import android.content.Context;
         import android.content.Intent;
         import android.content.SharedPreferences;
         import android.support.design.widget.NavigationView;
+        import android.support.v4.app.FragmentManager;
+        import android.support.v4.view.GravityCompat;
         import android.support.v4.widget.DrawerLayout;
+        import android.support.v7.app.ActionBarDrawerToggle;
         import android.support.v7.app.AppCompatActivity;
         import android.os.Bundle;
         import android.view.MenuItem;
@@ -12,6 +16,7 @@ package com.example.mapwithmarker;
         import android.widget.Button;
         import android.widget.EditText;
         import android.widget.TextView;
+        import android.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
     public Button SignUp;
@@ -19,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     public EditText username;
     public EditText password;
     public TextView checkWorking;
-    private DrawerLayout mDrawerLayout;
+
 
     public static String getMyPassword(Context context, String usernameEntered) {
         SharedPreferences prefs = context.getSharedPreferences("myAppPackage", 0);
@@ -59,6 +64,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    private ActionBarDrawerToggle drawerToggle;
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -69,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
         username = (EditText) findViewById(R.id.getUsername);
         password = (EditText) findViewById(R.id.getPassword);
         checkWorking = (TextView) findViewById(R.id.CheckIfWorking);
+
 
 
 
@@ -88,6 +97,10 @@ public class MainActivity extends AppCompatActivity {
         Intent registerBtn = new Intent(MainActivity.this, RegisterActivity.class);
         startActivity(registerBtn);
     }
+
+
+
+
 }
 
 

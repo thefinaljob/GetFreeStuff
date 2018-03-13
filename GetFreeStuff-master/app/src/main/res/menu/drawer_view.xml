@@ -1,25 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
     <group android:checkableBehavior="single">
         <item
-            android:layout_marginTop="8dp"
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_first_fragment"
             android:icon="@drawable/ic_menu_camera"
-            android:title="@string/camera" />
+            android:title="@string/recent_places" />
         <item
-            android:layout_marginTop="8dp"
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_second_fragment"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/gallery" />
+            android:title="@string/messages" />
         <item
-            android:layout_marginTop="8dp"
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_third_fragment"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/slideshow" />
-        <item
-            android:layout_marginTop="8dp"
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/tools" />
+            android:title="@string/reviews" />
     </group>
 </menu>
